@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Candor\n"
+"POT-Creation-Date: 2016-06-13 15:27+0500\n"
+"PO-Revision-Date: 2016-06-13 15:29+0500\n"
+"Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: inc/tgm\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: build-theme\n"
+"X-Poedit-SearchPathExcluded-4: css\n"
+"X-Poedit-SearchPathExcluded-5: fonts\n"
+"X-Poedit-SearchPathExcluded-6: images\n"
+"X-Poedit-SearchPathExcluded-7: languages\n"
+"X-Poedit-SearchPathExcluded-8: less\n"
+"X-Poedit-SearchPathExcluded-9: node_modules\n"
+"X-Poedit-SearchPathExcluded-10: inc/plugins\n"
+"X-Poedit-SearchPathExcluded-11: *.css\n"
+"X-Poedit-SearchPathExcluded-12: *.json\n"
+
+#: 404.php:16
+msgid "Oops! We are not able to find what you are looking for."
+msgstr ""
+
+#: 404.php:17
+msgid "Go to Home"
+msgstr ""
+
+#: author.php:22
+msgid "Author"
+msgstr ""
+
+#: comments.php:15
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:32
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: full-width.php:31 page.php:33 partials/post/single/post-content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: full-width.php:38 page.php:40
+msgid "Edit"
+msgstr ""
+
+#: functions.php:77
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:109
+msgctxt "Josefin Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:116
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:343
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:345
+msgid "Sidebar for main blog page and archive pages."
+msgstr ""
+
+#: functions.php:354
+msgid "Post Sidebar"
+msgstr ""
+
+#: functions.php:356
+msgid "Sidebar for single blog post."
+msgstr ""
+
+#: functions.php:365
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:367
+msgid "Sidebar for single page."
+msgstr ""
+
+#: functions.php:376
+msgid "Slidable Sidebar"
+msgstr ""
+
+#: functions.php:378
+msgid "Widget area for slidable sidebar"
+msgstr ""
+
+#: functions.php:387
+msgid "Instagram Feed"
+msgstr ""
+
+#: functions.php:389
+msgid "Widget area for instagram feed on bottom."
+msgstr ""
+
+#: functions.php:525
+msgid "Nothing Found"
+msgstr ""
+
+#: functions.php:526
+msgid ""
+"It seems we can not find what you are looking for. Perhaps search can help."
+msgstr ""
+
+#: functions.php:549
+msgid "Newer Posts"
+msgstr ""
+
+#: functions.php:550
+msgid "Older Posts"
+msgstr ""
+
+#: functions.php:609
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:609
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:663 inc/customizer/header.php:84
+msgid "Facebook URL"
+msgstr ""
+
+#: functions.php:664 inc/customizer/header.php:95
+msgid "Twitter URL"
+msgstr ""
+
+#: functions.php:665 inc/customizer/header.php:106
+msgid "LinkedIn URL"
+msgstr ""
+
+#: functions.php:666 inc/customizer/header.php:117
+msgid "Google Plus URL"
+msgstr ""
+
+#: functions.php:667 inc/customizer/header.php:128
+msgid "Instagram URL"
+msgstr ""
+
+#: functions.php:668 inc/customizer/header.php:150
+msgid "Skype Username"
+msgstr ""
+
+#: functions.php:669
+msgid "Youtube URL"
+msgstr ""
+
+#: functions.php:670 inc/customizer/header.php:161
+msgid "Pinterest URL"
+msgstr ""
+
+#: functions.php:827
+msgid "Share"
+msgstr ""
+
+#: inc/customizer/blog.php:13
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/blog.php:28
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/blog.php:29
+msgid "Choose your desired layout."
+msgstr ""
+
+#: inc/customizer/blog.php:49
+msgid "Header Top Shadow"
+msgstr ""
+
+#: inc/customizer/blog.php:53 inc/customizer/blog.php:136
+#: inc/customizer/header.php:42 inc/customizer/header.php:58
+#: inc/customizer/header.php:74 inc/customizer/single-post.php:41
+#: inc/customizer/single-post.php:56 inc/customizer/single-post.php:86
+#: inc/customizer/single-post.php:101
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/blog.php:54 inc/customizer/blog.php:137
+#: inc/customizer/header.php:43 inc/customizer/header.php:59
+#: inc/customizer/header.php:75 inc/customizer/single-post.php:42
+#: inc/customizer/single-post.php:57 inc/customizer/single-post.php:87
+#: inc/customizer/single-post.php:102
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/blog.php:64
+msgid "What to show on Banner"
+msgstr ""
+
+#: inc/customizer/blog.php:68
+msgid "Intro Section"
+msgstr ""
+
+#: inc/customizer/blog.php:69 inc/customizer/single-post.php:13
+msgid "Blog Post"
+msgstr ""
+
+#: inc/customizer/blog.php:84
+msgid "Intro Title Text"
+msgstr ""
+
+#: inc/customizer/blog.php:96
+msgid "Intro Description Text"
+msgstr ""
+
+#: inc/customizer/blog.php:114
+msgid "Select Post for Banner"
+msgstr ""
+
+#: inc/customizer/blog.php:132
+msgid "Featured Posts Carousel"
+msgstr ""
+
+#: inc/customizer/blog.php:156
+msgid "Select a Tag to Show Posts in Carousel"
+msgstr ""
+
+#: inc/customizer/blog.php:169
+msgid "Featured Posts to Show in Carousel"
+msgstr ""
+
+#: inc/customizer/customizer.php:99
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/footer.php:13
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/footer.php:22
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/header.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/header.php:23
+msgid "Header Layout Variation"
+msgstr ""
+
+#: inc/customizer/header.php:27
+msgid "Logo or Site Title on Left"
+msgstr ""
+
+#: inc/customizer/header.php:28
+msgid "Logo or Site Title in Center"
+msgstr ""
+
+#: inc/customizer/header.php:38
+msgid "Search Icon"
+msgstr ""
+
+#: inc/customizer/header.php:53
+msgid "Slidable Sidebar Icon"
+msgstr ""
+
+#: inc/customizer/header.php:54
+msgid "It is not required for 2nd blog layout."
+msgstr ""
+
+#: inc/customizer/header.php:70
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/header.php:139
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer/header.php:172
+msgid "RSS URL"
+msgstr ""
+
+#: inc/customizer/single-post.php:22
+msgid "Blog Post Layout"
+msgstr ""
+
+#: inc/customizer/single-post.php:26
+msgid "Full Width Layout"
+msgstr ""
+
+#: inc/customizer/single-post.php:27
+msgid "Layout With Sidebar"
+msgstr ""
+
+#: inc/customizer/single-post.php:37
+msgid "Social Share"
+msgstr ""
+
+#: inc/customizer/single-post.php:52
+#: partials/post/single/text-based-related-posts.php:20
+#: partials/post/single/thumbnail-based-related-posts.php:10
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/single-post.php:66
+msgid "Related Posts Design Variation"
+msgstr ""
+
+#: inc/customizer/single-post.php:71
+msgid "Thumbnail Based"
+msgstr ""
+
+#: inc/customizer/single-post.php:72
+msgid "Text Based"
+msgstr ""
+
+#: inc/customizer/single-post.php:82
+msgid "Post Author"
+msgstr ""
+
+#: inc/customizer/single-post.php:97
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/customizer/styles.php:16
+msgid "Styles"
+msgstr ""
+
+#: inc/customizer/styles.php:26
+msgid "Quick CSS"
+msgstr ""
+
+#: inc/customizer/styles.php:27
+msgid ""
+"Enter small CSS changes here. If you need to change major portions of the "
+"theme then use child-custom.css file in child theme."
+msgstr ""
+
+#: inc/widgets/author_profile_widget.php:12
+msgid "Candor - Author Profile"
+msgstr ""
+
+#: inc/widgets/author_profile_widget.php:13
+msgid ""
+"This widget displays gravatar photo, name, bio and social icons for selected "
+"author."
+msgstr ""
+
+#: inc/widgets/author_profile_widget.php:24
+msgid "Select User"
+msgstr ""
+
+#: inc/widgets/author_profile_widget.php:123
+msgid "Widget is not properly configured!"
+msgstr ""
+
+#: inc/widgets/recent_posts_widget.php:7
+msgid "This widget displays recent posts."
+msgstr ""
+
+#: inc/widgets/recent_posts_widget.php:8
+msgid "Candor - Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent_posts_widget.php:14
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent_posts_widget.php:84 inc/widgets/top_posts_widget.php:97
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/recent_posts_widget.php:88 inc/widgets/top_posts_widget.php:101
+msgid "Number of items to show:"
+msgstr ""
+
+#: inc/widgets/top_posts_widget.php:9
+msgid "This widget displays posts with respect to number of comments."
+msgstr ""
+
+#: inc/widgets/top_posts_widget.php:11
+msgid "Candor - Top Posts"
+msgstr ""
+
+#: inc/widgets/top_posts_widget.php:69 partials/banner.php:38
+#: partials/blog-three.php:43 partials/post/entry-summary.php:10
+msgid "Continue Reading"
+msgstr ""
+
+#: partials/blog-four.php:66
+msgid "Load More"
+msgstr ""
+
+#: partials/blog-four.php:67
+msgid "No More Posts To Load"
+msgstr ""
+
+#: partials/pagination.php:6
+msgid "Previous page"
+msgstr ""
+
+#: partials/pagination.php:7
+msgid "Next page"
+msgstr ""
+
+#: partials/pagination.php:8
+msgid "Page"
+msgstr ""
+
+#: partials/post-carousel.php:50
+msgid "Read More"
+msgstr ""
+
+#: partials/post/single/post-content.php:39
+msgid "Tags"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:9
+msgctxt "Parent post link"
+msgid "Published in:"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:19
+#: partials/post/single/thumbnail-based-related-posts.php:12
+msgid "Post navigation"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:24
+#: partials/post/single/thumbnail-based-related-posts.php:23
+msgid "Previous"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:25
+#: partials/post/single/thumbnail-based-related-posts.php:17
+msgid "Previous post:"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:33
+#: partials/post/single/thumbnail-based-related-posts.php:36
+msgid "Next"
+msgstr ""
+
+#: partials/post/single/post-navigation.php:34
+#: partials/post/single/thumbnail-based-related-posts.php:30
+msgid "Next post:"
+msgstr ""
+
+#: partials/post/single/text-based-related-posts.php:29
+msgid "in"
+msgstr ""
+
+#: partials/search-form-overlay.php:5
+msgid "Type your Keyword"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "%s Results Found"
+msgstr ""

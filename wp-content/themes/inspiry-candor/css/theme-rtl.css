@@ -1,0 +1,77 @@
+/**
+ * Table of Contents
+ *
+ * 1.0 - Slidable Sidebar
+ * 2.0 - Header
+ * 3.0 - Mean Menu
+ * 4.0 - Blog
+ * 5.0 - Widgets
+ * 6.0 - Shortcodes
+ */
+/*-----------------------------------------------------------------------------------*/
+/* 1.0 - Slidable Sidebar
+/*-----------------------------------------------------------------------------------*/
+.slidable-sidebar {
+  border-right-color: #e2e2e2;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 2.0 - Header
+/*-----------------------------------------------------------------------------------*/
+.site-branding + .main-navigation:before {
+  border-right-color: #d4d4d4;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 3.0 - Mean Menu
+/*-----------------------------------------------------------------------------------*/
+.mean-container a.meanmenu-reveal {
+  border-left-color: rgba(0, 0, 0, 0.1);
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  border-right-color: rgba(0, 0, 0, 0.1) !important;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 4.0 - Blog
+/*-----------------------------------------------------------------------------------*/
+.post-navigation-with-title .nav-next {
+  border-right-color: #e1e1e1;
+  border-left-color: transparent;
+}
+.inspiry-blog-single-one #comments .comment-wrapper:after,
+.page #comments .comment-wrapper:after {
+  border-right-color: transparent;
+  border-left-color: #fff;
+}
+.inspiry-blog-single-one #comments .comment-wrapper:before,
+.page #comments .comment-wrapper:before {
+  border-right-color: transparent;
+  border-left-color: #d7d7d7;
+}
+.inspiry-blog-single-one #comments .children .comment-wrapper:after,
+.page #comments .children .comment-wrapper:after {
+  border-right-color: transparent;
+  border-left-color: #fafafa;
+}
+.inspiry-blog-single-two #comments .comment-wrapper:after {
+  border-right-color: transparent;
+  border-left-color: #f9f9f9;
+}
+.inspiry-blog-single-two #comments .comment-wrapper:before {
+  border-right-color: transparent;
+  border-left-color: #f9f9f9;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 5.0 - Widgets
+/*-----------------------------------------------------------------------------------*/
+/*  Widget Search */
+.widget_search input[type="text"],
+.widget_search input[type="email"],
+.widget_search input[type="search"] {
+  border-color: #ddd;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 6.0 - Shortcodes
+/*----------------------------------------------------------------------------------*/
+/* Tabs */
+.tabs-container .tabs-nav li:first-child {
+  border-right-color: #757575;
+}
