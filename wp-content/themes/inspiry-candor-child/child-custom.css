@@ -1,1 +1,92 @@
 /* Child Theme - Custom CSS File */
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center-aligned-header .site-branding:after {
+    background-color: transparent;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 400;
+	letter-spacing: -1px;
+	text-align: left;
+}
+.entry-title {
+	margin-bottom:30px !important;
+	line-height: normal !important;
+}
+.entry-meta p {
+	text-align:left !important;
+}
+.social-buttons {
+	text-align: left;
+	margin-bottom:30px;
+}
+
+
+@media only screen and (min-width : 320px) {  
+
+	#comments .comment-wrapper {
+		margin-right:10px;
+		margin-left:10px;
+		background-color:#E8EAEC;
+		border:none !important;
+	}
+
+	#comments .comment-wrapper:before {
+		display:none;
+	}
+	#comments .comment-wrapper:after {
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent #E8EAEC !important;
+		display: block;
+		width: 0;
+		z-index: 1;
+		right: 100%;
+		top: 35px;
+		}
+	#comments .children .comment-wrapper {
+		margin-right:10px;
+		margin-left:10px;
+		background-color:#D4E8F3 !important;
+		border:none !important;
+	}
+	#comments .children .comment-wrapper:after {
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 10px 0 10px 10px;
+		border-color: transparent #D4E8F3 !important;
+		display: block;
+		width: 0;
+		z-index: 1;
+		left: 100%;
+		top: 35px;
+	}
+
+	#comments .children .reply {
+		display:none !important;
+	}
+
+	#comments .depth-2 article {
+	    margin-left: 0 !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#comments .comment-wrapper {
+		margin-right:100px;
+	}
+	#comments .children .comment-wrapper {
+		margin-left:100px;
+	}
+}
