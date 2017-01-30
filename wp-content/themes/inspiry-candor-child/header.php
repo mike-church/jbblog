@@ -35,7 +35,7 @@
     <header class="site-header">
         <?php
             if ( is_home() ) { ?>
-
+                <a class="home-logo header-logo" href="<?php echo home_url('/'); ?>"></a>
             <?php                
             }
             else { ?>

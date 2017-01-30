@@ -76,5 +76,12 @@ if ( ! empty( $inspiry_intro_title ) || ! empty( $inspiry_intro_description ) ) 
                 ?>
             </div>
         <?php endif; ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="btn" href="https://julian-bakery.com" style="margin-top:30px;">Shop Julian Bakery</a>
+                </div>
+            </div>
+        </div>
     </section>
 <?php endif; ?>

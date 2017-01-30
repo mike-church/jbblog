@@ -5,6 +5,7 @@ $inspiry_header_image_content = get_theme_mod( 'inspiry_header_image_content' );
 if ( ! empty( $inspiry_header_image ) ) :
     ?>
     <div class="banner" role="banner">
+        DICK
         <?php
         $inspiry_banner_post = get_theme_mod( 'inspiry_banner_post' );
 
