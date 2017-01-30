@@ -39,7 +39,7 @@ if ( !function_exists( 'inspiry_enqueue_child_styles' ) ) {
             wp_enqueue_style( 'inspiry-child-default', get_stylesheet_uri(), array( 'inspiry-parent-default' ), INSPIRY_CHILD_THEME_VERSION, 'all' );
 
             // child custom css
-            wp_enqueue_style( 'inspiry-child-custom',  get_stylesheet_directory_uri() . '/child-custom.css', array( 'inspiry-child-default' ), '' , 'all' );
+            wp_enqueue_style( 'inspiry-child-custom',  get_stylesheet_directory_uri() . '/child-custom.css', array( 'inspiry-child-default' ), '1.1' , 'all' );
         }
     }
     add_action( 'wp_enqueue_scripts', 'inspiry_enqueue_child_styles', PHP_INT_MAX );

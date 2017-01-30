@@ -32,19 +32,22 @@
         }
     }
     ?>
-    <div class="page-wrapper">
-        <header id="masthead" class="site-header <?php echo esc_attr( $inspiry_header_variation ); ?>" >
-            <div class="site-header-main container-fluid clearfix">
+    <header class="site-header">
+        <?php
+            if ( is_home() ) { ?>
 
-                <?php if ( 'center-aligned-header' == $inspiry_header_variation ) : ?>
-                    <div class="header-center">
-                        <?php get_template_part( 'partials/header/logo' ); ?>
-                    </div>
-                <?php endif; ?>
-                
-            </div>
-            <!-- .site-header-main -->
-        </header>
+            <?php                
+            }
+            else { ?>
+                <a class="logo header-logo" href="<?php echo home_url('/'); ?>"></a>
+                <a class="btn" href="https://julian-bakery.com">Shop</a>
+            <?php
+            }
+        ?>
+        
+    </header>
+    <div class="page-wrapper">
+        
         <!-- .site-header -->
 
         <?php
